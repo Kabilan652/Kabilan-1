@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabilan D | Fullstack Developer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <button class="mobile-nav-toggle"><i class="fas fa-bars"></i></button>
+
+    <div class="app-container">
+        
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="profile-section">
+                    <img src="images/profile.jpeg" alt="Kabilan D" class="profile-img">
+                    <h3>Kabilan D</h3>
+                    <span class="role">Fullstack Developer</span>
+                </div>
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="index.html" class="nav-link active"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="about.html" class="nav-link"><i class="fas fa-user"></i> About</a></li>
+                        <li><a href="skills.html" class="nav-link"><i class="fas fa-code"></i> Skills</a></li>
+                        <li><a href="experience.html" class="nav-link"><i class="fas fa-briefcase"></i> Experience</a></li>
+                        <li><a href="projects.html" class="nav-link"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                        <li><a href="contact.html" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="theme-toggle"><i class="fas fa-moon"></i> Dark Mode</button>
+            </div>
+            
+            <div class="sidebar-footer">
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+                <p style="text-align:center; margin-top:10px; font-size:12px;">© 2024 Kabilan D</p>
+            </div>
+        </aside>
+
+       <main class="main-content">
+    <h2>My Portfolio</h2>
+    
+    <div style="margin-bottom: 2rem;">
+        <button class="btn btn-outline filter-btn active" data-filter="all" style="margin-left:0; margin-right:10px;">All</button>
+        <button class="btn btn-outline filter-btn" data-filter="react">React</button>
+        <button class="btn btn-outline filter-btn" data-filter="fullstack">Fullstack</button>
+        <button class="btn btn-outline filter-btn" data-filter="ui">UI/UX</button>
+    </div>
+
+    <div class="grid-container">
+        
+        <div class="card project-card" data-category="fullstack">
+            <div style="height: 150px; background: #ddd; border-radius: 8px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center; color: #888;">
+                <i class="fas fa-shopping-cart fa-3x"></i>
+            </div>
+            <h3>E-Commerce Platform</h3>
+            <p style="font-size: 0.9rem;">A fully functional shopping cart with Stripe payment integration and admin dashboard.</p>
+            <div style="margin: 1rem 0; font-size: 0.8rem; color: var(--primary-color);">
+                <span>#React</span> <span>#Node</span> <span>#MongoDB</span>
+            </div>
+            <a href="#" class="btn btn-primary" style="font-size: 0.8rem; padding: 0.5rem 1rem;">View Demo</a>
+            <a href="#" style="margin-left: 10px; color: var(--text-main);"><i class="fab fa-github"></i></a>
+        </div>
+
+        <div class="card project-card" data-category="react">
+            <div style="height: 150px; background: #ddd; border-radius: 8px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center; color: #888;">
+                <i class="fas fa-book fa-3x"></i>
+            </div>
+            <h3>Library Management</h3>
+            <p style="font-size: 0.9rem;">Digital library system for tracking books, members, and due dates.</p>
+            <div style="margin: 1rem 0; font-size: 0.8rem; color: var(--primary-color);">
+                <span>#React</span> <span>#Firebase</span>
+            </div>
+            <a href="#" class="btn btn-primary" style="font-size: 0.8rem; padding: 0.5rem 1rem;">View Demo</a>
+            <a href="#" style="margin-left: 10px; color: var(--text-main);"><i class="fab fa-github"></i></a>
+        </div>
+
+    </div>
+</main>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

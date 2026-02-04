@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabilan D | Fullstack Developer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <button class="mobile-nav-toggle"><i class="fas fa-bars"></i></button>
+
+    <div class="app-container">
+        
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="profile-section">
+                    <img src="images/profile.jpeg" alt="Kabilan D" class="profile-img">
+                    <h3>Kabilan D</h3>
+                    <span class="role">Fullstack Developer</span>
+                </div>
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="index.html" class="nav-link active"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="about.html" class="nav-link"><i class="fas fa-user"></i> About</a></li>
+                        <li><a href="skills.html" class="nav-link"><i class="fas fa-code"></i> Skills</a></li>
+                        <li><a href="experience.html" class="nav-link"><i class="fas fa-briefcase"></i> Experience</a></li>
+                        <li><a href="projects.html" class="nav-link"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                        <li><a href="contact.html" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+            
+            <div class="sidebar-footer">
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+                <p style="text-align:center; margin-top:10px; font-size:12px;">© 2024 Kabilan D</p>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            
+            <section id="hero" style="display: flex; flex-direction: column; justify-content: center; min-height: 80vh;">
+                <h4 style="color: var(--primary-color); font-weight: 600;">Hi, my name is</h4>
+                <h1 style="font-size: 3.5rem; margin: 10px 0;">Kabilan D.</h1>
+                <h2 style="font-size: 2rem; color: var(--text-muted); border: none; padding: 0;">I build things for the web.</h2>
+                <p style="max-width: 600px; margin: 20px 0;">
+                    I am a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products.
+                </p>
+                <div class="cta-group">
+                    <a href="projects.html" class="btn btn-primary">View My Work</a>
+                    <a href="#" class="btn btn-outline">Download CV <i class="fas fa-download"></i></a>
+                </div>
+            </section>
+
+            <section class="highlights grid-container">
+                <div class="card">
+                    <i class="fas fa-code" style="font-size: 2rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
+                    <h3>Development</h3>
+                    <p>Modern websites using React, Node, and pure CSS architecture.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-paint-brush" style="font-size: 2rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
+                    <h3>Design</h3>
+                    <p>Clean, user-friendly UI/UX design with responsive layouts.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-database" style="font-size: 2rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
+                    <h3>Database</h3>
+                    <p>Efficient data management using MongoDB and SQL.</p>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
